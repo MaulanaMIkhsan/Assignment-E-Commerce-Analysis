@@ -3,7 +3,6 @@
 
 - Maulana Muhammad Ikhsan
 - maulanamuhammadikh@gmail.com
-- ixsannnnnn
 
 # Pertanyaan Bisnis
 
