@@ -674,15 +674,6 @@ print(profitable)
     Name: profit, dtype: float64
 
 
-    C:\Users\MyBook Hype AMD\AppData\Local\Temp\ipykernel_13148\3025873443.py:4: SettingWithCopyWarning: 
-    A value is trying to be set on a copy of a slice from a DataFrame.
-    Try using .loc[row_indexer,col_indexer] = value instead
-    
-    See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-      ecommerce_2018['profit'] = ecommerce_2018['price'] - ecommerce_2018['freight_value']
-
-
-
 ```python
 # Growth per bulan pada tahun 2017
 ecommerce_data['order_approved_at'] = pd.to_datetime(ecommerce_data['order_approved_at'])
