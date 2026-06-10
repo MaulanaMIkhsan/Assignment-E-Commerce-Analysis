@@ -725,13 +725,12 @@ plt.xlabel('Total Penjualan (Million(s))')
 plt.ylabel('Kota')
 plt.show()
 ```
-    
-![png](/home/claude/EDA_Assignment_30_1.png)
-    
 
+
+![png](Assignment_files/EDA_Assignment_30_1.png)
+    
 
 ### Pertanyaan 2
-
 
 ```python
 ecommerce_data['order_approved_at'] = pd.to_datetime(ecommerce_data['order_approved_at'])
@@ -751,9 +750,7 @@ plt.show()
 ```
 
 
-    
-![png](/home/claude/EDA_Assignment_32_1.png)
-    
+![png](Assignment_files/EDA_Assignment_32_1.png)
 
 
 ### Pertanyaan 3
@@ -778,9 +775,9 @@ plt.xticks(rotation=45)
 plt.axhline(0, color='black', linestyle='--', linewidth=1)
 plt.show()
 ```
-    
-![png](/home/claude/EDA_Assignment_34_1.png)
-    
+
+
+![png](Assignment_files/EDA_Assignment_34_1.png)
 
 
 # Conclusion
@@ -788,7 +785,6 @@ plt.show()
 - Untuk 10 kota dengan penjualan tertinggi yang ada didalam e-commerce dataset, ditemukan bahwa sao paulo merupakan pasar yang paling profitable dalam penjualan seluruh produk diangka R$1,933,844 (2016-2018).
 - Untuk produk dengan penjualan terbanyak pada tahun 2018 yang paling profitable ada diangka R$660,848.
 - Perhitungan growth% penjualan MoM sepanjang tahun 2017 ditemukan growth tertinggi ada pada bulan februari dengan persentasi mencapai 112% growth.
-
 
 ```python
 # Menyimpan file yang akand digunakan untuk dimasukan ke dashboard Streamlit
