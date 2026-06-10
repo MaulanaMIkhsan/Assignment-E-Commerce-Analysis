@@ -733,15 +733,6 @@ plt.xlabel('Total Penjualan (Million(s))')
 plt.ylabel('Kota')
 plt.show()
 ```
-
-    C:\Users\MyBook Hype AMD\AppData\Local\Temp\ipykernel_13148\2091613795.py:6: FutureWarning: 
-    
-    Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `y` variable to `hue` and set `legend=False` for the same effect.
-    
-      sns.barplot(x=top10_cities.values, y=top10_cities.index, palette=colors)
-
-
-
     
 ![png](/home/claude/EDA_Assignment_30_1.png)
     
@@ -766,19 +757,6 @@ plt.ylabel('Total Pendapatan (Million(s))')
 plt.xticks(rotation=45)
 plt.show()
 ```
-
-    C:\Users\MyBook Hype AMD\AppData\Local\Temp\ipykernel_7592\2135981019.py:3: SettingWithCopyWarning: 
-    A value is trying to be set on a copy of a slice from a DataFrame.
-    Try using .loc[row_indexer,col_indexer] = value instead
-    
-    See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-      ecommerce_2018['profit'] = ecommerce_2018['price'] - ecommerce_2018['freight_value']
-    C:\Users\MyBook Hype AMD\AppData\Local\Temp\ipykernel_7592\2135981019.py:9: FutureWarning: 
-    
-    Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
-    
-      sns.barplot(x=most_profitable.index.astype(str), y=most_profitable.values, palette=colors)
-
 
 
     
@@ -808,15 +786,6 @@ plt.xticks(rotation=45)
 plt.axhline(0, color='black', linestyle='--', linewidth=1)
 plt.show()
 ```
-
-    C:\Users\MyBook Hype AMD\AppData\Local\Temp\ipykernel_7592\277577777.py:13: FutureWarning: 
-    
-    Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
-    
-      sns.barplot(x=nama_bulan, y=penjualan_bulanan['mom_growth_percent'], palette=colors)
-
-
-
     
 ![png](/home/claude/EDA_Assignment_34_1.png)
     
