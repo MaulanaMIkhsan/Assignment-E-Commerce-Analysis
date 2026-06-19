@@ -1,4 +1,3 @@
-# Dashboard-Dicoding-Assignment
 # Proyek Analisis Data: E-Commerce Public
 
 - Maulana Muhammad Ikhsan
